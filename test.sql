@@ -1,5 +1,5 @@
-with src as (
+with cte as (
   select 1 as id
 )
 
-select * from src
+select * from cte
